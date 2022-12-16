@@ -67,8 +67,8 @@ pub mod errors {
 
 use crate::errors::*;
 
-use md5::Md5;
-use sha2::{Digest, Sha256};
+use md5::{Digest as Md5Digest, Md5};
+use sha2::{Digest as Sha2Digest, Sha256};
 
 use crate::reader::Reader;
 use crate::writer::Writer;
